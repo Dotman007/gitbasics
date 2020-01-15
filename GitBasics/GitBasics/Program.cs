@@ -7,6 +7,8 @@ namespace GitBasics
         static void Main(string[] args)
         {
             Console.WriteLine(Sum(10, 10));
+            Console.WriteLine(Subtract(10, 10));
+
         }
 
         public static int Sum(int first, int second)
