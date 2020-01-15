@@ -2,11 +2,16 @@
 
 namespace GitBasics
 {
-    class Program
+    static class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(Sum(10, 10));
+        }
+
+        public static int Sum(int first, int second)
+        {
+            return first + second;
         }
     }
 }
